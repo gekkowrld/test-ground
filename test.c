@@ -1,10 +1,10 @@
-# include <stdio.h>
+#include <stdio.h>
 
-int main(){
-printf("Test, for C\n");
+void hello(void);
+
+int main() {
+  printf("Test, for C\n");
   hello();
 }
 
-void hello(void){
-  printf("Hello, Testers\n");
-}
+void hello(void) { printf("Hello, Testers\n"); }
